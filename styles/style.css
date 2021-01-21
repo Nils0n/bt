@@ -46,6 +46,13 @@ a{
 
 a:hover{
     font-weight: bolder;
+  
+}
+
+.selected{
+    font-weight: bolder;
+    color:#885125;
+   
 }
 
 #imglogo{
@@ -177,6 +184,7 @@ td:nth-child(odd){
     display: flex;
     flex-direction: column;
     width: 300px;
+   
     
 }
 
@@ -215,6 +223,7 @@ table{
 #form{
     width: 360px;
 }
+
 
 }
   
