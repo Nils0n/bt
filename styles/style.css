@@ -166,13 +166,56 @@ td:nth-child(odd){
 }
 
 
-/*
-@media screen and (min-width: 900px) {
-    body{
-        background-image: none;
-    }
-  
-*/
 
+@media screen and (max-width: 700px) {
+    
+#container{
+    width: 360px;
+}
 
+#menu{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    
+}
+
+.text{
+    width: 350px;
+}
+
+.slides{
+    width: 360px;
+   
+}
+
+.piscina img{
+    width: 360px;
   
+}
+
+.piscina nav{
+    width: 300px;
+}
+
+#cardapio{
+    background: none;
+    margin: 0px 0px 0px 0px;
+}
+
+table{
+    width:340px;    
+}
+
+.prato{
+    width: 350px;
+    margin: 0px;
+}
+
+#form{
+    width: 360px;
+}
+
+}
+  
+
